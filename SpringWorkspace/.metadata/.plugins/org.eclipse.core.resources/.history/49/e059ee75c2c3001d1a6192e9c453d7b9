@@ -1,0 +1,36 @@
+package com.ezen.biz.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.ezen.biz.dto.ProductVO;
+
+@Service
+public class ProductServiceImpl implements ProductService {
+
+	@Override
+	public ProductVO getProduct(ProductVO vo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<ProductVO> getProductListByKind(String kind) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<ProductVO> getNewProductList() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<ProductVO> getBestProductList() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

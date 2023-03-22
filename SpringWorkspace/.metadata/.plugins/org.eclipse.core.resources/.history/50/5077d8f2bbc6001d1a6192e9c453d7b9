@@ -1,0 +1,19 @@
+package com.ezen.biz.service;
+
+import java.util.List;
+
+import com.ezen.biz.dto.AddressVO;
+import com.ezen.biz.dto.MemberVO;
+
+public interface MemberService {
+
+	MemberVO getMemeber(String id);
+
+	// 회원 존재 여부 조회
+	int confirmID(String userid);
+
+	void insertMember(MemberVO membervo);
+
+
+	public List<AddressVO> selectAddressByDong(String dong);
+}

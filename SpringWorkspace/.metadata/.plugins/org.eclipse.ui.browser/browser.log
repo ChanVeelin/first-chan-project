@@ -1,0 +1,98 @@
+
+3월 13, 2023 15:45:22.80 NEW SESSION
+3월 13, 2023 15:45:22.80 [33088:51776:0313/154522.793:ERROR:device_event_log_impl.cc(218)] [15:45:22.792] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+3월 13, 2023 15:45:22.80 [33088:51776:0313/154522.794:ERROR:device_event_log_impl.cc(218)] [15:45:22.793] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+
+3월 13, 2023 15:54:44.54 NEW SESSION
+3월 13, 2023 15:54:44.54 [26012:25000:0313/155444.540:ERROR:device_event_log_impl.cc(218)] [15:54:44.540] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+3월 13, 2023 15:54:44.54 [26012:25000:0313/155444.540:ERROR:device_event_log_impl.cc(218)] [15:54:44.540] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+3월 13, 2023 16:50:33.36 [45988:46252:0313/165033.368:ERROR:device_event_log_impl.cc(218)] [16:50:33.380] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+3월 13, 2023 16:50:33.38 [45988:46252:0313/165033.368:ERROR:device_event_log_impl.cc(218)] [16:50:33.381] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+3월 13, 2023 16:52:18.00 [41568:60708:0313/165218.004:ERROR:device_event_log_impl.cc(218)] [16:52:18.012] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+3월 13, 2023 16:52:18.00 [41568:60708:0313/165218.004:ERROR:device_event_log_impl.cc(218)] [16:52:18.012] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+3월 13, 2023 16:57:20.12 [40732:5240:0313/165720.121:ERROR:device_event_log_impl.cc(218)] [16:57:20.125] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+3월 13, 2023 16:57:20.13 [40732:5240:0313/165720.130:ERROR:device_event_log_impl.cc(218)] [16:57:20.128] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+3월 13, 2023 16:58:16.77 [47372:15864:0313/165816.777:ERROR:device_event_log_impl.cc(218)] [16:58:16.776] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+3월 13, 2023 16:58:16.77 [47372:15864:0313/165816.777:ERROR:device_event_log_impl.cc(218)] [16:58:16.777] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+3월 13, 2023 16:59:56.25 [47372:30736:0313/165956.258:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+3월 13, 2023 17:38:02.35 [47372:15864:0313/173802.355:ERROR:device_event_log_impl.cc(218)] [17:38:02.361] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+3월 13, 2023 17:38:03.87 [47372:30736:0313/173803.872:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+3월 13, 2023 17:38:10.27 [47372:30736:0313/173810.276:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+3월 13, 2023 17:38:18.13 [47372:30736:0313/173818.136:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+3월 13, 2023 17:38:57.54 [47372:30736:0313/173857.542:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+3월 13, 2023 17:39:03.37 [47372:30736:0313/173903.379:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+3월 13, 2023 17:39:21.68 [47372:30736:0313/173921.687:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+3월 13, 2023 17:39:26.85 [47372:30736:0313/173926.858:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+3월 13, 2023 17:41:15.27 [47372:30736:0313/174115.272:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+3월 13, 2023 17:41:38.09 [47372:30736:0313/174138.099:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+3월 13, 2023 17:41:44.19 [47372:30736:0313/174144.192:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+3월 13, 2023 17:41:46.25 [47372:30736:0313/174146.254:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+3월 13, 2023 17:42:08.23 [47372:30736:0313/174208.230:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+3월 13, 2023 17:42:13.25 [47372:30736:0313/174213.237:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+3월 13, 2023 17:42:20.56 [47372:30736:0313/174220.565:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+3월 13, 2023 17:42:46.36 [47372:30652:0313/174246.361:ERROR:get_updates_processor.cc(264)] PostClientToServerMessage() failed during GetUpdates with error 2
+3월 13, 2023 17:43:13.40 [47372:30736:0313/174313.401:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+3월 13, 2023 17:44:01.37 [47372:30652:0313/174401.374:ERROR:get_updates_processor.cc(264)] PostClientToServerMessage() failed during GetUpdates with error 2
+3월 13, 2023 17:45:56.61 [47372:30736:0313/174556.617:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+3월 13, 2023 17:45:56.61 [47372:45296:0313/174556.617:ERROR:get_updates_processor.cc(264)] PostClientToServerMessage() failed during GetUpdates with error 2
+3월 13, 2023 17:46:17.67 [47372:30736:0313/174617.671:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+3월 13, 2023 17:46:39.59 [47372:30736:0313/174639.592:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+3월 13, 2023 17:46:39.59 [47372:37432:0313/174639.592:ERROR:get_updates_processor.cc(264)] PostClientToServerMessage() failed during GetUpdates with error 2
+3월 13, 2023 17:46:52.54 [47372:30736:0313/174652.544:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+3월 13, 2023 17:46:52.54 [47372:30652:0313/174652.544:ERROR:get_updates_processor.cc(264)] PostClientToServerMessage() failed during GetUpdates with error 2
+3월 13, 2023 17:47:08.88 [47372:30652:0313/174708.881:ERROR:get_updates_processor.cc(264)] PostClientToServerMessage() failed during GetUpdates with error 2
+3월 13, 2023 17:56:52.55 [47372:30736:0313/175652.559:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+3월 13, 2023 17:57:08.89 [47372:30652:0313/175708.898:ERROR:get_updates_processor.cc(264)] PostClientToServerMessage() failed during GetUpdates with error 2
+3월 13, 2023 18:13:24.86 [47372:30736:0313/181324.861:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+3월 13, 2023 18:13:24.91 [47372:45296:0313/181324.919:ERROR:get_updates_processor.cc(264)] PostClientToServerMessage() failed during GetUpdates with error 2
+3월 13, 2023 18:23:24.86 [47372:30736:0313/182324.862:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+3월 13, 2023 18:23:24.93 [47372:30652:0313/182324.938:ERROR:get_updates_processor.cc(264)] PostClientToServerMessage() failed during GetUpdates with error 2
+3월 13, 2023 18:23:57.29 [47372:30736:0313/182357.291:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+3월 13, 2023 18:23:57.39 [47372:45296:0313/182357.393:ERROR:get_updates_processor.cc(264)] PostClientToServerMessage() failed during GetUpdates with error 2
+3월 13, 2023 18:23:59.36 [47372:30736:0313/182359.369:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+3월 13, 2023 18:54:30.71 [47372:30736:0313/185430.711:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+3월 13, 2023 18:54:35.33 [47372:30736:0313/185435.331:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+3월 13, 2023 18:54:43.87 [47372:30736:0313/185443.876:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+3월 13, 2023 18:54:45.84 [47372:30736:0313/185445.839:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+3월 13, 2023 18:55:03.82 [47372:30736:0313/185503.824:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+3월 13, 2023 18:55:12.70 [47372:30736:0313/185512.700:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+3월 13, 2023 18:56:28.22 [47372:30736:0313/185628.228:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+3월 14, 2023 09:43:01.96 [47372:30736:0314/094301.966:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+3월 14, 2023 09:43:03.26 [47372:30736:0314/094303.263:ERROR:checkin_request.cc(240)] Check-in request got net error: -106
+3월 14, 2023 09:43:03.26 [47372:9640:0314/094303.266:ERROR:get_updates_processor.cc(264)] PostClientToServerMessage() failed during GetUpdates with error 2
+3월 14, 2023 09:43:31.97 [47372:15864:0314/094331.975:ERROR:device_event_log_impl.cc(218)] [09:43:31.975] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+3월 14, 2023 13:46:02.27 [47372:30736:0314/134602.278:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+3월 14, 2023 14:14:35.32 [47372:30736:0314/141435.328:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+3월 14, 2023 16:58:36.59 [47372:30736:0314/165836.594:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+3월 14, 2023 17:49:31.15 [47372:45296:0314/174931.154:ERROR:get_updates_processor.cc(264)] PostClientToServerMessage() failed during GetUpdates with error 2
+3월 14, 2023 17:49:37.85 [47372:30736:0314/174937.857:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+3월 14, 2023 18:13:37.01 [47372:30736:0314/181337.010:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+3월 14, 2023 18:14:09.14 [47372:30736:0314/181409.148:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+3월 14, 2023 18:14:26.81 [47372:30736:0314/181426.814:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+3월 14, 2023 18:14:30.51 [47372:30736:0314/181430.516:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+3월 14, 2023 18:14:33.77 [47372:30736:0314/181433.778:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+3월 14, 2023 18:18:06.89 [47372:30736:0314/181806.893:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+3월 14, 2023 18:22:17.16 [47372:30736:0314/182217.168:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+3월 14, 2023 18:22:42.88 [47372:30736:0314/182242.887:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+3월 14, 2023 18:23:05.18 [47372:30736:0314/182305.183:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+3월 14, 2023 18:30:06.44 [47372:30736:0314/183006.443:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+3월 14, 2023 18:30:35.69 [47372:30736:0314/183035.691:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+3월 14, 2023 18:31:27.16 [47372:30736:0314/183127.163:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+3월 14, 2023 18:31:57.67 [47372:30736:0314/183157.678:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+3월 14, 2023 18:32:42.22 [47372:30736:0314/183242.223:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+3월 14, 2023 18:33:43.67 [47372:30736:0314/183343.675:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+3월 14, 2023 18:54:29.79 [47372:30736:0314/185429.798:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+3월 14, 2023 18:54:56.20 [47372:30736:0314/185456.201:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+3월 14, 2023 18:55:44.36 [47372:30736:0314/185544.361:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+3월 14, 2023 18:56:09.19 [47372:30736:0314/185609.189:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+3월 14, 2023 18:56:11.22 [47372:30736:0314/185611.221:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+3월 14, 2023 18:57:03.13 [47372:30736:0314/185703.134:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+3월 14, 2023 18:58:05.02 [47372:30736:0314/185805.026:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+3월 14, 2023 18:59:07.14 [47372:30736:0314/185907.145:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+3월 14, 2023 19:00:08.21 [47372:30736:0314/190008.213:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+3월 14, 2023 19:01:09.02 [47372:30736:0314/190109.024:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+3월 14, 2023 19:32:51.27 [47372:30736:0314/193251.271:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+3월 15, 2023 24:52:38.22 [47372:30736:0315/005238.228:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+3월 15, 2023 06:55:52.70 [47372:30736:0315/065552.699:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+3월 15, 2023 09:41:55.32 [47372:30736:0315/094153.935:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+3월 15, 2023 09:41:56.87 [47372:30736:0315/094156.872:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106

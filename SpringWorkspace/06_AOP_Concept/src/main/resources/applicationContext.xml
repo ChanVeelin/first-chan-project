@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:aop="http://www.springframework.org/schema/aop"
+   xmlns:context="http://www.springframework.org/schema/context"
+   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+      http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+      http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd">
+
+   <context:component-scan base-package="com.ezen.biz"></context:component-scan>
+   <!-- 어드바이스 클래스 등록 -->
+   <bean id="log" class="com.ezen.biz.common.LogAdvice"/>
+   <bean id="before" class="com.ezen.biz.common.BeforeAdvice"/>
+   <bean id="afterReturning" class="com.ezen.biz.common.AfterReturningAdvice"/>
+   <bean id="afterThrowing" class="com.ezen.biz.common.AfterThrowingAdvice"/>
+   <bean id="after" class="com.ezen.biz.common.AfterAdvice"/>
+   <bean id="around" class="com.ezen.biz.common.AruondAdvice"/>
+   <aop:config>
+      <aop:pointcut id="allPointcut" expression="execution(* com.ezen.biz..*Impl.*(..))"/>
+      <aop:pointcut id="getPointcut" expression="execution(* com.ezen.biz..*Impl.get*(..))"/>
+      
+<!--       
+      <aop:aspect ref="log" >
+         <aop:before pointcut-ref="allPointcut" method="printLog"/>
+      </aop:aspect>
+    -->
+<aop:aspect ref="before">
+         <aop:before pointcut-ref="allPointcut" method="beforeLog"/>
+      </aop:aspect>
+   
+   <aop:aspect ref="afterReturning">
+   <aop:after-returning pointcut-ref="getPointcut" method="afterLog" returning="returnObj"/>
+   </aop:aspect>
+	
+	<aop:aspect ref="afterThrowing">
+	<aop:after-throwing pointcut-ref="allPointcut" method="exceptionLog" throwing="exceptObj"/>
+	</aop:aspect>
+
+	<aop:aspect ref="after">
+	<aop:after pointcut-ref="allPointcut" method="afterLog"/>
+	</aop:aspect>
+
+	<aop:aspect ref= "around">
+		<aop:around pointcut-ref="allPointcut" method="aroundLog"/>
+	</aop:aspect>
+
+
+   </aop:config>
+</beans>

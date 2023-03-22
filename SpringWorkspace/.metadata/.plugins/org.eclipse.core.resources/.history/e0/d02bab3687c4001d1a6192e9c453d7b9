@@ -1,0 +1,15 @@
+package com.ezen.biz.service;
+
+import java.util.List;
+
+import com.ezen.biz.dto.AddressVO;
+
+public class AddressServiceImpl implements AddressService {
+
+	@Override
+	public List<AddressVO> selectAddressByDong(String dong) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

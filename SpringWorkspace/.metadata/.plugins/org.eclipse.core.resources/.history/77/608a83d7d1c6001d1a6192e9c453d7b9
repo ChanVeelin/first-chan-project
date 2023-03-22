@@ -1,0 +1,28 @@
+package com.ezen.biz.service;
+
+import java.util.List;
+
+import com.ezen.biz.dto.AddressVO;
+import com.ezen.biz.dto.MemberVO;
+
+public interface MemberService {
+	//조회
+	MemberVO getMemeber(String id);
+
+	// 회원 존재 여부 조회
+	int confirmID(String userid);
+
+	//가입
+	void insertMember(MemberVO membervo);
+
+	//우편번호
+	public List<AddressVO> selectAddressByDong(String dong);
+	
+	//아이디
+	public String selectIdByNameEmail(MemberVO vo);
+
+	//비밀번호 찾기
+	public String selectPwdByIdNameEmail(MemberVO vo);
+	
+	public void changePwd(MemberVO vo);
+}

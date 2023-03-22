@@ -1,0 +1,34 @@
+package com.ezen.biz.dao;
+
+import org.mybatis.spring.SqlSessionTemplate;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.ezen.biz.dto.MemberVO;
+
+@Repository
+public class MemberDAO implements MemberService {
+	
+	@Autowired
+	SqlSessionTemplate mybatis;
+	public MemberVO getMemeber(String id) {
+	
+		return mybatis.selectOne("MemberMapper.getMember",id);
+	}
+		// 회원 존재 여부 조회
+	public int confirmID(String userid) {
+		
+		String pwd = mybatis.selectOne("MemberMapper.confirmID",userid);
+		if(pwd !=null) {
+			return 1;
+		} else {
+			return 0;
+		}
+	}
+	public void insertMember(MemberVO vo) {
+		
+		mybatis.insert("MemberMapper.insertMember",vo);
+	}
+	
+}
+

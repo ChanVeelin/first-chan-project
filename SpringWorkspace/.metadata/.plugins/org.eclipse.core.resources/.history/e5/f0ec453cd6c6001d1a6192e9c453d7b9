@@ -1,0 +1,10 @@
+package com.ezen.biz.dao;
+
+public class CartDAO {
+
+	
+	public void insertCart(CartVO vo) {
+		
+		
+	}
+}

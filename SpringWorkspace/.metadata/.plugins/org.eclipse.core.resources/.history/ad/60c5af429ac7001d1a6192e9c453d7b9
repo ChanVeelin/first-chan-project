@@ -1,0 +1,20 @@
+package com.ezen.biz.service;
+
+import java.util.List;
+
+import com.ezen.biz.dto.OrderVO;
+
+
+public interface OrderService {
+
+	OrderVO selectMaxOseq(OrderVO vo);
+
+	void insertOder(OrderVO vo);
+
+	void insertOrderDetail(OrderVO vo);
+
+	List<OrderVO> ListOrderById(OrderVO vo);
+
+	List<Integer> selectSeqOrdering(OrderVO vo);
+
+}

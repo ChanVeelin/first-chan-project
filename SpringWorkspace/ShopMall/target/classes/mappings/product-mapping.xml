@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="ProductMapper">
+
+  
+
+	<!-- 상품 상세 조회 -->
+	<select id="getProduct" resultType="product">
+		select * from product where pseq=#{pseq}
+	</select>
+	<!-- 상품 카테고리 별 조회 -->
+	<select id="getProductListByKind" resultType="product">
+		select * from product where kind=#{kind} ORDER BY name
+	</select>
+	<!-- 신상품 조회 -->
+		<select id="getNewProductList" resultType="product">
+			select * from new_pro_view
+	</select>
+	<!--  베스트상품 조회 -->
+		<select id="getBestProductList" resultType="product">
+		select * from best_pro_view
+	</select>
+
+
+</mapper>

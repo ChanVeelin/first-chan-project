@@ -1,0 +1,32 @@
+/**
+ * 
+ */
+/*
+ * 장바구니 넣기
+ */
+
+function go_cart(){
+	var qty = document.getElementById("quantity").value;
+	
+	if(qty == ""){
+		alert("수량을 입력해 주세요.")
+		document.getElementById("quantity").focus();
+		return false;
+		
+	} else if(qty > 30) {
+		alert("수량이 너무 큽니다.")
+		document.getElementById("quantity").focus();
+		return false;
+	}else{
+		var form = document.getElementById("theform")
+		form.action = "cart_insert";
+		form.submit();
+	}
+}
+	//삭제하기
+	function go_cart_delete(){
+	var len = document.getElementById("cseq").length;
+	
+	console.log("len",len)
+	}
+	

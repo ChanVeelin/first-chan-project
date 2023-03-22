@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.ezen.biz.service&apos; to &apos;17_Mybatis_SpringMVC/src/main/java/com.ezen.biz&apos;&#x0D;&#x0A;- Original project: &apos;BoardWeb&apos;&#x0D;&#x0A;- Destination element: &apos;17_Mybatis_SpringMVC/src/main/java/com.ezen.biz&apos;&#x0D;&#x0A;- Original element: &apos;BoardWeb/src/main/java/com.ezen.biz.service&apos;" description="Copy package" destination="=17_Mybatis_SpringMVC/src\/main\/java&lt;com.ezen.biz" element1="/src\/main\/java&lt;com.ezen.biz.service" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1678857615882" version="1.0"/>
+</session>

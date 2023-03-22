@@ -1,0 +1,47 @@
+package com.ezen.view;
+
+import javax.servlet.http.HttpSession;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+
+import com.ezen.biz.dto.CartVO;
+import com.ezen.biz.dto.MemberVO;
+import com.ezen.biz.service.CartService;
+
+
+
+@Controller
+public class MypageController {
+
+	@Autowired
+	private CartService cartService;
+
+
+	@PostMapping("/cart_insert")
+	public String insertCart(CartVO vo,HttpSession session) {
+		// 세션에 사용자 정보가 저장되어있는 확인(로그인여부)
+	MemberVO loginUser =	(MemberVO)session.getAttribute("loginUser");
+		
+	if(loginUser == null) {
+		return "member/login";
+	}else {
+		vo.setId(loginUser.getId());
+		cartService.insertCart(vo);
+		
+		return "redirect:cart_list";
+	}
+}
+	@GetMapping("/cart_list")
+	public String listCart(CartVO vo,HttpSession session) {
+		//로그인 확인
+		MemberVO loginUser =	(MemberVO)session.getAttribute("loginUser");
+		//CartList 조회 후
+		// "cartList" 속성에 조회한 데이터 저장
+		//CartList.jsp
+	}
+	
+	
+}

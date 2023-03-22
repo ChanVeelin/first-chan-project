@@ -1,0 +1,5 @@
+package com.ezen.biz.product.dto;
+
+public class ProductVO {
+
+}

@@ -1,0 +1,18 @@
+1678154729769	Delete element
+1678157281309	Move package
+1678157330138	Rename resource 'ezenbiz'
+1678157451175	Copy file
+1678157493752	Delete element
+1678158782907	Rename compilation unit 'BorardDAO.java'
+1678166819221	Extract interface 'BoardService'
+1678166860599	Move compilation unit
+1678167115171	Delete element
+1678167158122	Copy package
+1678167173497	Rename package 'com.ezn.biz'
+1678167199615	Delete element
+1678168804336	Rename resource 'aplicationContext.xml'
+1678170259997	Rename compilation unit 'UserVO.java'
+1678171163137	Move compilation unit
+1678172348860	Extract interface 'UsersService'
+1678172356803	Move compilation unit
+1678239178693	Copy packages

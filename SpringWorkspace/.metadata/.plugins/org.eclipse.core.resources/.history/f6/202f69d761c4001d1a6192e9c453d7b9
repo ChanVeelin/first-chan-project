@@ -1,0 +1,31 @@
+package com.ezen.biz.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.ezen.biz.dto.MemberVO;
+
+public class MemberServiceImpl implements MemberService {
+
+	
+	@Autowired
+	private MemberVO mDao;
+	
+	@Override
+	public MemberVO getMemeber(String id) {
+	
+		return mDao.getMemeber;
+	}
+
+	@Override
+	public int confirmID(String userid) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void insertMember(MemberVO vo) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

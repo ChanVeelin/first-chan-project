@@ -1,0 +1,18 @@
+package com.ezen.biz.common;
+
+
+import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.Signature;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+import org.springframework.stereotype.Service;
+
+@Aspect
+@Service
+public class BeforeAdvice {
+
+		@Before("PointcutCommon.allPointcut()")
+		public void beforeLog(JoinPoint jp) {
+			Signature sig = jp.getSignature();
+		}
+}

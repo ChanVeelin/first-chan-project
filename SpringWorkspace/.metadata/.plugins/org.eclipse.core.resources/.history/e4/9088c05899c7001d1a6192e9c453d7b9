@@ -1,0 +1,53 @@
+package com.ezen.biz.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.ezen.biz.dao.OrderDAO;
+import com.ezen.biz.dto.OrderVO;
+
+@Service("oderService")
+public class OrderServiceImpl implements OrderService {
+
+	@Autowired
+	private OrderDAO orderDao;
+	
+	@Autowired
+	private CartService cartService;
+	
+	@Override
+	public OrderVO selectMaxOseq(OrderVO vo) {
+
+		return orderDao.selectMaxOseq(vo);
+	}
+
+	@Override
+	public void insertOder(OrderVO vo) {
+		// 1 신규 주문번호 채번
+		int oseq = selectMaxOseq();
+		vo.setOseq(oseq);
+		//2 신규주문을 주문테이블에 생성
+		
+		//3 장바구니 목록을읽어 oreder_detail 테이블에 저장
+	}
+
+	@Override
+	public void insertOrderDetail(OrderVO vo) {
+		orderDao.insertOrderDetail(vo);
+
+	}
+
+	@Override
+	public List<OrderVO> ListOrderById(OrderVO vo) {
+		
+		return orderDao.ListOrderById(vo);
+	}
+
+	@Override
+	public List<Integer> selectSeqOrdering(OrderVO vo) {
+		return orderDao.selectSeqOrdering(vo);
+	}
+
+}

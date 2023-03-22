@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="OrderMapper">
+
+<!-- 주문번호 생성 -->
+	<select id = "selectMaxOseq" resultType="int">
+	<!-- nvl2 = MAX(oseq)의 값이 null이 아니면 첫번째 값,null이면 두번째 값을 채택함. -->
+		select nvl2(max(oseq),max(oseq)+1,1) from orders
+	</select>
+	<!-- 새로운 주문 생성 -->
+	<insert id="insertOder">
+		insert into oders(oseq,id) values(#{oseq},#{id})
+	</insert>
+	<!-- 주문 상세정보 생성 -->
+	<insert id="insertOrderDetail">
+		insert into order_detail(odseq,oseq,pseq,quantity)
+		values(order_detail_seq.nextval,#{oseq},#{pseq},#{quantity})	
+	</insert>
+</mapper>

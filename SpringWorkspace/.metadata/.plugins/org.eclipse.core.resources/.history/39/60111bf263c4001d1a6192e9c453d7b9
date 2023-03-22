@@ -1,0 +1,34 @@
+package com.ezen.biz.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.ezen.biz.dao.MemberDAO;
+import com.ezen.biz.dto.MemberVO;
+
+@Service("memberService")
+public class MemberServiceImpl implements MemberService {
+
+	
+	@Autowired
+	private MemberDAO memberDao;
+	
+	@Override
+	public MemberVO getMemeber(String id) {
+	
+		return memberDao.getMemeber(id);
+	}
+
+	@Override
+	public int confirmID(String userid) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void insertMember(MemberVO vo) {
+		memberDao.insertMember(vo);
+
+	}
+
+}

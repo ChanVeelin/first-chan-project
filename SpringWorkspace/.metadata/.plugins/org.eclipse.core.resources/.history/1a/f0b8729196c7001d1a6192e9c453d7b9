@@ -1,0 +1,47 @@
+package com.ezen.biz.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.ezen.biz.dto.OrderVO;
+
+@Service
+public class OrderServiceImpl implements OrderService {
+
+	@Autowired
+	private OrderDAO oDao;
+	
+	
+	@Override
+	public OrderVO selectMaxOseq(OrderVO vo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void insertOder(OrderVO vo) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void insertOrderDetail(OrderVO vo) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public List<OrderVO> ListOrderById(OrderVO vo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Integer> selectSeqOrdering(OrderVO vo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

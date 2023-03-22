@@ -1,0 +1,11 @@
+1679280796195	Rename resource 'chagePwdOk.jsp'
+1679291774981	Extract interface 'CartService'
+1679293145141	Copy file
+1679293158709	Rename resource 'member.js'
+1679368343934	Extract interface 'OderService'
+1679368352969	Move compilation unit
+1679368418975	Rename type 'OderService'
+1679372163432	Rename resource 'oreder-mapping.xml'
+1679467595532	Extract interface 'QnaService'
+1679467613047	Move compilation unit
+1679467675936	Delete element

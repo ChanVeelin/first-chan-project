@@ -1,0 +1,32 @@
+package com.ezen.biz.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.ezen.biz.dao.QnaDAO;
+import com.ezen.biz.dto.QnaVO;
+
+
+@Service("qnaService")
+public class QnaServiceImpl implements QnaService {
+	
+	
+	private QnaDAO qdao;
+
+	@Override
+	public List<QnaVO> listQna(String id) {
+		return qdao.listQna(id);
+	}
+
+	@Override
+	public QnaVO getQna(int qseq) {
+		return qdao.getQna(qseq);
+	}
+
+	@Override
+	public void insertQna(QnaVO vo) {
+		qdao.insertQna(vo);
+	}
+
+}
